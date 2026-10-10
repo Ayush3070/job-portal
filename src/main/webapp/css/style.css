@@ -1,0 +1,178 @@
+/*
+ * Custom styles for JobPortal
+ * This file overrides and extends Bootstrap styles
+ */
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8am9icyUyMHNlYXJjaHx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+/* Category Cards */
+.category-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.category-card i {
+    color: #0d6efd;
+}
+
+/* Job Cards */
+.job-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+.job-card-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+.company-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.job-info {
+    display: flex;
+    flex-direction: column;
+}
+.job-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+.company-name {
+    color: #6c757d;
+    font-size: 1rem;
+}
+.job-meta {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+.job-meta .badge {
+    font-size: 0.85rem;
+    padding: 0.25em 0.5em;
+}
+.job-card-body {
+    flex-grow: 1;
+}
+.job-salary, .job-experience {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+.job-salary i, .job-experience i {
+    color: #0d6efd;
+    width: 1.25rem;
+}
+.job-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+.job-skills .badge {
+    font-size: 0.75rem;
+    padding: 0.2em 0.5em;
+}
+.job-posted {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+.job-card-footer {
+    margin-top: auto;
+}
+
+/* Why Section */
+.why-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+.why-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.why-card i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.why-card h5 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* Stats Cards */
+.stat-card {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.stat-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.stat-label {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+.btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 500px;
+    }
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    .hero-section p {
+        font-size: 1.25rem;
+    }
+}

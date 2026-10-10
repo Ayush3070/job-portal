@@ -1,0 +1,462 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/Users/ayushmishra/IdeaProjects/Job%20Portal/apache-maven-3.9.6/lib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/Users/ayushmishra/IdeaProjects/Job%20Portal/apache-maven-3.9.6/lib/guava-32.0.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.jobportal:job-portal >----------------------
+[INFO] Building Job Application Portal 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] >>> jetty:9.4.51.v20230217:run-war (default-cli) > package @ job-portal >>>
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ job-portal ---
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ job-portal ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ job-portal ---
+[INFO] skip non existing resourceDirectory /Users/ayushmishra/IdeaProjects/Job Portal/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ job-portal ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:3.2.2:test (default-test) @ job-portal ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- war:3.3.2:war (default-war) @ job-portal ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [job-portal] in [/Users/ayushmishra/IdeaProjects/Job Portal/target/job-portal-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/Users/ayushmishra/IdeaProjects/Job Portal/src/main/webapp]
+[INFO] Building war: /Users/ayushmishra/IdeaProjects/Job Portal/target/job-portal-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] <<< jetty:9.4.51.v20230217:run-war (default-cli) < package @ job-portal <<<
+[INFO] 
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- jetty:9.4.51.v20230217:run-war (default-cli) @ job-portal ---
+[INFO] Logging initialized @1477ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] Configuring Jetty for project: Job Application Portal
+[INFO] Context path = /job-portal
+[INFO] Tmp directory = /Users/ayushmishra/IdeaProjects/Job Portal/target/tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 24.0.1+9-30
+[WARNING] org.apache.taglibs.standard.Version scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/Version.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/Version.class
+[WARNING] org.apache.taglibs.standard.functions.Functions scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/functions/Functions.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/functions/Functions.class
+[WARNING] org.apache.taglibs.standard.resources.Resources scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/resources/Resources.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/resources/Resources.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.CatchTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/CatchTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/CatchTag.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.ChooseTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/ChooseTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/ChooseTag.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.DeclareTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/DeclareTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/DeclareTag.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.ForEachSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/ForEachSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/ForEachSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.ForTokensSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/ForTokensSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/ForTokensSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.ImportSupport$ImportResponseWrapper$1 scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/ImportSupport$ImportResponseWrapper$1.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/ImportSupport$ImportResponseWrapper$1.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.ImportSupport$ImportResponseWrapper scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/ImportSupport$ImportResponseWrapper.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/ImportSupport$ImportResponseWrapper.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.ImportSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/ImportSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/ImportSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.NullAttributeException scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/NullAttributeException.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/NullAttributeException.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.OtherwiseTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/OtherwiseTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/OtherwiseTag.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.OutSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/OutSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/OutSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.ParamParent scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/ParamParent.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/ParamParent.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.ParamSupport$ParamManager scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/ParamSupport$ParamManager.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/ParamSupport$ParamManager.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.ParamSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/ParamSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/ParamSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.RedirectSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/RedirectSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/RedirectSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.RemoveTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/RemoveTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/RemoveTag.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.SetSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/SetSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/SetSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.UrlSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/UrlSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/UrlSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.Util scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/Util.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/Util.class
+[WARNING] org.apache.taglibs.standard.tag.common.core.WhenTagSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.BundleSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/BundleSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/BundleSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.FormatDateSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/FormatDateSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/FormatDateSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.FormatNumberSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/FormatNumberSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/FormatNumberSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.MessageSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/MessageSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/MessageSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.ParamSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/ParamSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/ParamSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.ParseDateSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/ParseDateSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/ParseDateSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.ParseNumberSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/ParseNumberSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/ParseNumberSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.RequestEncodingSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/RequestEncodingSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/RequestEncodingSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.SetBundleSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/SetBundleSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/SetBundleSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.SetLocaleSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/SetLocaleSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/SetLocaleSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.SetTimeZoneSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/SetTimeZoneSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/SetTimeZoneSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.fmt.TimeZoneSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/fmt/TimeZoneSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/fmt/TimeZoneSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.sql.DataSourceUtil scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.class
+[WARNING] org.apache.taglibs.standard.tag.common.sql.DataSourceWrapper scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/sql/DataSourceWrapper.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/sql/DataSourceWrapper.class
+[WARNING] org.apache.taglibs.standard.tag.common.sql.DateParamTagSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/sql/DateParamTagSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/sql/DateParamTagSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.sql.ParamTagSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/sql/ParamTagSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/sql/ParamTagSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.sql.QueryTagSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/sql/QueryTagSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/sql/QueryTagSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.sql.ResultImpl scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/sql/ResultImpl.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/sql/ResultImpl.class
+[WARNING] org.apache.taglibs.standard.tag.common.sql.SetDataSourceTagSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/sql/SetDataSourceTagSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/sql/SetDataSourceTagSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.sql.TransactionTagSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.sql.UpdateTagSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/sql/UpdateTagSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/sql/UpdateTagSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.xml.ExprSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/xml/ExprSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/xml/ExprSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.xml.ForEachTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/xml/ForEachTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/xml/ForEachTag.class
+[WARNING] org.apache.taglibs.standard.tag.common.xml.IfTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/xml/IfTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/xml/IfTag.class
+[WARNING] org.apache.taglibs.standard.tag.common.xml.ParamSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/xml/ParamSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/xml/ParamSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.xml.ParseSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/xml/ParseSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/xml/ParseSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.xml.SetTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/xml/SetTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/xml/SetTag.class
+[WARNING] org.apache.taglibs.standard.tag.common.xml.TransformSupport scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/xml/TransformSupport.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/xml/TransformSupport.class
+[WARNING] org.apache.taglibs.standard.tag.common.xml.WhenTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/common/xml/WhenTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/common/xml/WhenTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.core.ForEachTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/core/ForEachTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/core/ForEachTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.core.ForTokensTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/core/ForTokensTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/core/ForTokensTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.core.IfTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/core/IfTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/core/IfTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.core.ImportTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/core/ImportTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/core/ImportTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.core.OutTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/core/OutTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/core/OutTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.core.ParamTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/core/ParamTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/core/ParamTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.core.RedirectTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/core/RedirectTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/core/RedirectTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.core.SetTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/core/SetTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/core/SetTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.core.UrlTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/core/UrlTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/core/UrlTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.core.WhenTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/core/WhenTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/core/WhenTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.BundleTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/BundleTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/BundleTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.FormatDateTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/FormatDateTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/FormatDateTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.FormatNumberTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/FormatNumberTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/FormatNumberTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.MessageTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/MessageTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/MessageTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.ParamTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/ParamTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/ParamTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.ParseDateTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/ParseDateTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/ParseDateTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.ParseNumberTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/ParseNumberTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/ParseNumberTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.RequestEncodingTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/RequestEncodingTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/RequestEncodingTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.SetBundleTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/SetBundleTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/SetBundleTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.SetLocaleTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/SetLocaleTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/SetLocaleTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.SetTimeZoneTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/SetTimeZoneTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/SetTimeZoneTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.fmt.TimeZoneTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/fmt/TimeZoneTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/fmt/TimeZoneTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.sql.DateParamTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/sql/DateParamTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/sql/DateParamTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.sql.ParamTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/sql/ParamTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/sql/ParamTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.sql.QueryTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/sql/QueryTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/sql/QueryTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.sql.SetDataSourceTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/sql/SetDataSourceTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/sql/SetDataSourceTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.sql.TransactionTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/sql/TransactionTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/sql/TransactionTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.sql.UpdateTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/sql/UpdateTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/sql/UpdateTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.xml.ExprTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/xml/ExprTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/xml/ExprTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.xml.ParamTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/xml/ParamTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/xml/ParamTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.xml.ParseTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/xml/ParseTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/xml/ParseTag.class
+[WARNING] org.apache.taglibs.standard.tag.rt.xml.TransformTag scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tag/rt/xml/TransformTag.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tag/rt/xml/TransformTag.class
+[WARNING] org.apache.taglibs.standard.tei.DeclareTEI scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tei/DeclareTEI.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tei/DeclareTEI.class
+[WARNING] org.apache.taglibs.standard.tei.ForEachTEI scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tei/ForEachTEI.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tei/ForEachTEI.class
+[WARNING] org.apache.taglibs.standard.tei.ImportTEI scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tei/ImportTEI.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tei/ImportTEI.class
+[WARNING] org.apache.taglibs.standard.tei.Util scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tei/Util.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tei/Util.class
+[WARNING] org.apache.taglibs.standard.tei.XmlParseTEI scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tei/XmlParseTEI.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tei/XmlParseTEI.class
+[WARNING] org.apache.taglibs.standard.tei.XmlTransformTEI scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tei/XmlTransformTEI.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tei/XmlTransformTEI.class
+[WARNING] org.apache.taglibs.standard.tlv.JstlBaseTLV scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tlv/JstlBaseTLV.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tlv/JstlBaseTLV.class
+[WARNING] org.apache.taglibs.standard.tlv.JstlCoreTLV$Handler scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tlv/JstlCoreTLV$Handler.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tlv/JstlCoreTLV$Handler.class
+[WARNING] org.apache.taglibs.standard.tlv.JstlCoreTLV scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tlv/JstlCoreTLV.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tlv/JstlCoreTLV.class
+[WARNING] org.apache.taglibs.standard.tlv.JstlFmtTLV$Handler scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tlv/JstlFmtTLV$Handler.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tlv/JstlFmtTLV$Handler.class
+[WARNING] org.apache.taglibs.standard.tlv.JstlFmtTLV scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tlv/JstlFmtTLV.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tlv/JstlFmtTLV.class
+[WARNING] org.apache.taglibs.standard.tlv.JstlSqlTLV$Handler scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tlv/JstlSqlTLV$Handler.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tlv/JstlSqlTLV$Handler.class
+[WARNING] org.apache.taglibs.standard.tlv.JstlSqlTLV scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tlv/JstlSqlTLV.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tlv/JstlSqlTLV.class
+[WARNING] org.apache.taglibs.standard.tlv.JstlXmlTLV$Handler scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tlv/JstlXmlTLV$Handler.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tlv/JstlXmlTLV$Handler.class
+[WARNING] org.apache.taglibs.standard.tlv.JstlXmlTLV scanned from multiple locations: jar:file:///Users/ayushmishra/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/org/apache/taglibs/standard/tlv/JstlXmlTLV.class, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-3.0.1.jar!/org/apache/taglibs/standard/tlv/JstlXmlTLV.class
+[INFO] Scanning elapsed time=89ms
+[INFO] DefaultSessionIdManager workerName=node0
+[INFO] No SessionScavenger set, using defaults
+[INFO] node0 Scavenging every 600000ms
+[INFO] Started o.e.j.m.p.JettyWebAppContext@37d3e140{/job-portal,[file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/, jar:file:///Users/ayushmishra/IdeaProjects/Job%20Portal/target/job-portal-1.0-SNAPSHOT/WEB-INF/lib/bootstrap-5.3.0.jar!/META-INF/resources],AVAILABLE}{/Users/ayushmishra/IdeaProjects/Job Portal/target/job-portal-1.0-SNAPSHOT.war}
+[INFO] Started ServerConnector@21f50d2c{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[INFO] Started @1953ms
+[INFO] Started Jetty Server
+[WARNING] /job-portal/login
+javax.servlet.ServletException: javax.servlet.ServletException: java.lang.NoClassDefFoundError: jakarta/servlet/jsp/tagext/TagLibraryValidator
+    at org.eclipse.jetty.server.handler.HandlerCollection.handle (HandlerCollection.java:162)
+    at org.eclipse.jetty.server.handler.HandlerWrapper.handle (HandlerWrapper.java:127)
+    at org.eclipse.jetty.server.Server.handle (Server.java:516)
+    at org.eclipse.jetty.server.HttpChannel.lambda$handle$1 (HttpChannel.java:487)
+    at org.eclipse.jetty.server.HttpChannel.dispatch (HttpChannel.java:732)
+    at org.eclipse.jetty.server.HttpChannel.handle (HttpChannel.java:479)
+    at org.eclipse.jetty.server.HttpConnection.onFillable (HttpConnection.java:277)
+    at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded (AbstractConnection.java:311)
+    at org.eclipse.jetty.io.FillInterest.fillable (FillInterest.java:105)
+    at org.eclipse.jetty.io.ChannelEndPoint$1.run (ChannelEndPoint.java:104)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask (EatWhatYouKill.java:338)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce (EatWhatYouKill.java:315)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce (EatWhatYouKill.java:173)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce (EatWhatYouKill.java:137)
+    at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob (QueuedThreadPool.java:883)
+    at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run (QueuedThreadPool.java:1034)
+    at java.lang.Thread.run (Thread.java:1447)
+Caused by: javax.servlet.ServletException: java.lang.NoClassDefFoundError: jakarta/servlet/jsp/tagext/TagLibraryValidator
+    at org.apache.jasper.servlet.JspServlet.service (JspServlet.java:336)
+    at org.eclipse.jetty.jsp.JettyJspServlet.service (JettyJspServlet.java:106)
+    at javax.servlet.http.HttpServlet.service (HttpServlet.java:790)
+    at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service (ServletHolder.java:1459)
+    at org.eclipse.jetty.servlet.ServletHolder.handle (ServletHolder.java:799)
+    at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter (ServletHandler.java:1656)
+    at org.eclipse.jetty.servlet.ServletHandler.doHandle (ServletHandler.java:552)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:143)
+    at org.eclipse.jetty.security.SecurityHandler.handle (SecurityHandler.java:618)
+    at org.eclipse.jetty.server.handler.HandlerWrapper.handle (HandlerWrapper.java:127)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:235)
+    at org.eclipse.jetty.server.session.SessionHandler.doHandle (SessionHandler.java:1624)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:233)
+    at org.eclipse.jetty.server.handler.ContextHandler.doHandle (ContextHandler.java:1440)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:188)
+    at org.eclipse.jetty.servlet.ServletHandler.doScope (ServletHandler.java:505)
+    at org.eclipse.jetty.server.session.SessionHandler.doScope (SessionHandler.java:1594)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:186)
+    at org.eclipse.jetty.server.handler.ContextHandler.doScope (ContextHandler.java:1355)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:141)
+    at org.eclipse.jetty.server.Dispatcher.forward (Dispatcher.java:229)
+    at org.eclipse.jetty.server.Dispatcher.forward (Dispatcher.java:81)
+    at com.jobportal.controller.LoginServlet.doGet (LoginServlet.java:71)
+    at javax.servlet.http.HttpServlet.service (HttpServlet.java:687)
+    at javax.servlet.http.HttpServlet.service (HttpServlet.java:790)
+    at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service (ServletHolder.java:1459)
+    at org.eclipse.jetty.servlet.ServletHolder.handle (ServletHolder.java:799)
+    at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter (ServletHandler.java:1656)
+    at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter (WebSocketUpgradeFilter.java:292)
+    at org.eclipse.jetty.servlet.FilterHolder.doFilter (FilterHolder.java:193)
+    at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter (ServletHandler.java:1626)
+    at com.jobportal.filter.AuthFilter.doFilter (AuthFilter.java:36)
+    at org.eclipse.jetty.servlet.FilterHolder.doFilter (FilterHolder.java:201)
+    at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter (ServletHandler.java:1626)
+    at org.eclipse.jetty.servlet.ServletHandler.doHandle (ServletHandler.java:552)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:143)
+    at org.eclipse.jetty.security.SecurityHandler.handle (SecurityHandler.java:600)
+    at org.eclipse.jetty.server.handler.HandlerWrapper.handle (HandlerWrapper.java:127)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:235)
+    at org.eclipse.jetty.server.session.SessionHandler.doHandle (SessionHandler.java:1624)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:233)
+    at org.eclipse.jetty.server.handler.ContextHandler.doHandle (ContextHandler.java:1440)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:188)
+    at org.eclipse.jetty.servlet.ServletHandler.doScope (ServletHandler.java:505)
+    at org.eclipse.jetty.server.session.SessionHandler.doScope (SessionHandler.java:1594)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:186)
+    at org.eclipse.jetty.server.handler.ContextHandler.doScope (ContextHandler.java:1355)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:141)
+    at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle (ContextHandlerCollection.java:191)
+    at org.eclipse.jetty.server.handler.HandlerCollection.handle (HandlerCollection.java:146)
+    at org.eclipse.jetty.server.handler.HandlerWrapper.handle (HandlerWrapper.java:127)
+    at org.eclipse.jetty.server.Server.handle (Server.java:516)
+    at org.eclipse.jetty.server.HttpChannel.lambda$handle$1 (HttpChannel.java:487)
+    at org.eclipse.jetty.server.HttpChannel.dispatch (HttpChannel.java:732)
+    at org.eclipse.jetty.server.HttpChannel.handle (HttpChannel.java:479)
+    at org.eclipse.jetty.server.HttpConnection.onFillable (HttpConnection.java:277)
+    at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded (AbstractConnection.java:311)
+    at org.eclipse.jetty.io.FillInterest.fillable (FillInterest.java:105)
+    at org.eclipse.jetty.io.ChannelEndPoint$1.run (ChannelEndPoint.java:104)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask (EatWhatYouKill.java:338)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce (EatWhatYouKill.java:315)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce (EatWhatYouKill.java:173)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce (EatWhatYouKill.java:137)
+    at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob (QueuedThreadPool.java:883)
+    at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run (QueuedThreadPool.java:1034)
+    at java.lang.Thread.run (Thread.java:1447)
+Caused by: java.lang.NoClassDefFoundError: jakarta/servlet/jsp/tagext/TagLibraryValidator
+    at java.lang.ClassLoader.defineClass1 (Native Method)
+    at java.lang.ClassLoader.defineClass (ClassLoader.java:962)
+    at java.security.SecureClassLoader.defineClass (SecureClassLoader.java:132)
+    at java.net.URLClassLoader.defineClass (URLClassLoader.java:426)
+    at java.net.URLClassLoader.findClass (URLClassLoader.java:339)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.foundClass (WebAppClassLoader.java:642)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.loadAsResource (WebAppClassLoader.java:615)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass (WebAppClassLoader.java:529)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:490)
+    at java.lang.ClassLoader.defineClass1 (Native Method)
+    at java.lang.ClassLoader.defineClass (ClassLoader.java:962)
+    at java.security.SecureClassLoader.defineClass (SecureClassLoader.java:132)
+    at java.net.URLClassLoader.defineClass (URLClassLoader.java:426)
+    at java.net.URLClassLoader.findClass (URLClassLoader.java:339)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.foundClass (WebAppClassLoader.java:642)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.loadAsResource (WebAppClassLoader.java:615)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass (WebAppClassLoader.java:529)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:490)
+    at org.apache.jasper.compiler.TagLibraryInfoImpl.createValidator (TagLibraryInfoImpl.java:356)
+    at org.apache.jasper.compiler.TagLibraryInfoImpl.<init> (TagLibraryInfoImpl.java:195)
+    at org.apache.jasper.compiler.Parser.parseTaglibDirective (Parser.java:435)
+    at org.apache.jasper.compiler.Parser.parseDirective (Parser.java:493)
+    at org.apache.jasper.compiler.Parser.parseElements (Parser.java:1450)
+    at org.apache.jasper.compiler.Parser.parse (Parser.java:144)
+    at org.apache.jasper.compiler.ParserController.doParse (ParserController.java:244)
+    at org.apache.jasper.compiler.ParserController.parse (ParserController.java:105)
+    at org.apache.jasper.compiler.Compiler.generateJava (Compiler.java:202)
+    at org.apache.jasper.compiler.Compiler.compile (Compiler.java:374)
+    at org.apache.jasper.compiler.Compiler.compile (Compiler.java:350)
+    at org.apache.jasper.compiler.Compiler.compile (Compiler.java:334)
+    at org.apache.jasper.JspCompilationContext.compile (JspCompilationContext.java:597)
+    at org.apache.jasper.servlet.JspServletWrapper.service (JspServletWrapper.java:398)
+    at org.apache.jasper.servlet.JspServlet.serviceJspFile (JspServlet.java:383)
+    at org.apache.jasper.servlet.JspServlet.service (JspServlet.java:331)
+    at org.eclipse.jetty.jsp.JettyJspServlet.service (JettyJspServlet.java:106)
+    at javax.servlet.http.HttpServlet.service (HttpServlet.java:790)
+    at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service (ServletHolder.java:1459)
+    at org.eclipse.jetty.servlet.ServletHolder.handle (ServletHolder.java:799)
+    at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter (ServletHandler.java:1656)
+    at org.eclipse.jetty.servlet.ServletHandler.doHandle (ServletHandler.java:552)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:143)
+    at org.eclipse.jetty.security.SecurityHandler.handle (SecurityHandler.java:618)
+    at org.eclipse.jetty.server.handler.HandlerWrapper.handle (HandlerWrapper.java:127)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:235)
+    at org.eclipse.jetty.server.session.SessionHandler.doHandle (SessionHandler.java:1624)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:233)
+    at org.eclipse.jetty.server.handler.ContextHandler.doHandle (ContextHandler.java:1440)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:188)
+    at org.eclipse.jetty.servlet.ServletHandler.doScope (ServletHandler.java:505)
+    at org.eclipse.jetty.server.session.SessionHandler.doScope (SessionHandler.java:1594)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:186)
+    at org.eclipse.jetty.server.handler.ContextHandler.doScope (ContextHandler.java:1355)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:141)
+    at org.eclipse.jetty.server.Dispatcher.forward (Dispatcher.java:229)
+    at org.eclipse.jetty.server.Dispatcher.forward (Dispatcher.java:81)
+    at com.jobportal.controller.LoginServlet.doGet (LoginServlet.java:71)
+    at javax.servlet.http.HttpServlet.service (HttpServlet.java:687)
+    at javax.servlet.http.HttpServlet.service (HttpServlet.java:790)
+    at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service (ServletHolder.java:1459)
+    at org.eclipse.jetty.servlet.ServletHolder.handle (ServletHolder.java:799)
+    at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter (ServletHandler.java:1656)
+    at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter (WebSocketUpgradeFilter.java:292)
+    at org.eclipse.jetty.servlet.FilterHolder.doFilter (FilterHolder.java:193)
+    at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter (ServletHandler.java:1626)
+    at com.jobportal.filter.AuthFilter.doFilter (AuthFilter.java:36)
+    at org.eclipse.jetty.servlet.FilterHolder.doFilter (FilterHolder.java:201)
+    at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter (ServletHandler.java:1626)
+    at org.eclipse.jetty.servlet.ServletHandler.doHandle (ServletHandler.java:552)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:143)
+    at org.eclipse.jetty.security.SecurityHandler.handle (SecurityHandler.java:600)
+    at org.eclipse.jetty.server.handler.HandlerWrapper.handle (HandlerWrapper.java:127)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:235)
+    at org.eclipse.jetty.server.session.SessionHandler.doHandle (SessionHandler.java:1624)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:233)
+    at org.eclipse.jetty.server.handler.ContextHandler.doHandle (ContextHandler.java:1440)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:188)
+    at org.eclipse.jetty.servlet.ServletHandler.doScope (ServletHandler.java:505)
+    at org.eclipse.jetty.server.session.SessionHandler.doScope (SessionHandler.java:1594)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:186)
+    at org.eclipse.jetty.server.handler.ContextHandler.doScope (ContextHandler.java:1355)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:141)
+    at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle (ContextHandlerCollection.java:191)
+    at org.eclipse.jetty.server.handler.HandlerCollection.handle (HandlerCollection.java:146)
+    at org.eclipse.jetty.server.handler.HandlerWrapper.handle (HandlerWrapper.java:127)
+    at org.eclipse.jetty.server.Server.handle (Server.java:516)
+    at org.eclipse.jetty.server.HttpChannel.lambda$handle$1 (HttpChannel.java:487)
+    at org.eclipse.jetty.server.HttpChannel.dispatch (HttpChannel.java:732)
+    at org.eclipse.jetty.server.HttpChannel.handle (HttpChannel.java:479)
+    at org.eclipse.jetty.server.HttpConnection.onFillable (HttpConnection.java:277)
+    at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded (AbstractConnection.java:311)
+    at org.eclipse.jetty.io.FillInterest.fillable (FillInterest.java:105)
+    at org.eclipse.jetty.io.ChannelEndPoint$1.run (ChannelEndPoint.java:104)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask (EatWhatYouKill.java:338)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce (EatWhatYouKill.java:315)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce (EatWhatYouKill.java:173)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce (EatWhatYouKill.java:137)
+    at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob (QueuedThreadPool.java:883)
+    at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run (QueuedThreadPool.java:1034)
+    at java.lang.Thread.run (Thread.java:1447)
+Caused by: java.lang.ClassNotFoundException: jakarta.servlet.jsp.tagext.TagLibraryValidator
+    at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass (SelfFirstStrategy.java:50)
+    at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass (ClassRealm.java:271)
+    at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass (ClassRealm.java:247)
+    at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass (ClassRealm.java:239)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass (WebAppClassLoader.java:538)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:490)
+    at java.lang.ClassLoader.defineClass1 (Native Method)
+    at java.lang.ClassLoader.defineClass (ClassLoader.java:962)
+    at java.security.SecureClassLoader.defineClass (SecureClassLoader.java:132)
+    at java.net.URLClassLoader.defineClass (URLClassLoader.java:426)
+    at java.net.URLClassLoader.findClass (URLClassLoader.java:339)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.foundClass (WebAppClassLoader.java:642)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.loadAsResource (WebAppClassLoader.java:615)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass (WebAppClassLoader.java:529)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:490)
+    at java.lang.ClassLoader.defineClass1 (Native Method)
+    at java.lang.ClassLoader.defineClass (ClassLoader.java:962)
+    at java.security.SecureClassLoader.defineClass (SecureClassLoader.java:132)
+    at java.net.URLClassLoader.defineClass (URLClassLoader.java:426)
+    at java.net.URLClassLoader.findClass (URLClassLoader.java:339)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.foundClass (WebAppClassLoader.java:642)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.loadAsResource (WebAppClassLoader.java:615)
+    at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass (WebAppClassLoader.java:529)
+    at java.lang.ClassLoader.loadClass (ClassLoader.java:490)
+    at org.apache.jasper.compiler.TagLibraryInfoImpl.createValidator (TagLibraryInfoImpl.java:356)
+    at org.apache.jasper.compiler.TagLibraryInfoImpl.<init> (TagLibraryInfoImpl.java:195)
+    at org.apache.jasper.compiler.Parser.parseTaglibDirective (Parser.java:435)
+    at org.apache.jasper.compiler.Parser.parseDirective (Parser.java:493)
+    at org.apache.jasper.compiler.Parser.parseElements (Parser.java:1450)
+    at org.apache.jasper.compiler.Parser.parse (Parser.java:144)
+    at org.apache.jasper.compiler.ParserController.doParse (ParserController.java:244)
+    at org.apache.jasper.compiler.ParserController.parse (ParserController.java:105)
+    at org.apache.jasper.compiler.Compiler.generateJava (Compiler.java:202)
+    at org.apache.jasper.compiler.Compiler.compile (Compiler.java:374)
+    at org.apache.jasper.compiler.Compiler.compile (Compiler.java:350)
+    at org.apache.jasper.compiler.Compiler.compile (Compiler.java:334)
+    at org.apache.jasper.JspCompilationContext.compile (JspCompilationContext.java:597)
+    at org.apache.jasper.servlet.JspServletWrapper.service (JspServletWrapper.java:398)
+    at org.apache.jasper.servlet.JspServlet.serviceJspFile (JspServlet.java:383)
+    at org.apache.jasper.servlet.JspServlet.service (JspServlet.java:331)
+    at org.eclipse.jetty.jsp.JettyJspServlet.service (JettyJspServlet.java:106)
+    at javax.servlet.http.HttpServlet.service (HttpServlet.java:790)
+    at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service (ServletHolder.java:1459)
+    at org.eclipse.jetty.servlet.ServletHolder.handle (ServletHolder.java:799)
+    at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter (ServletHandler.java:1656)
+    at org.eclipse.jetty.servlet.ServletHandler.doHandle (ServletHandler.java:552)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:143)
+    at org.eclipse.jetty.security.SecurityHandler.handle (SecurityHandler.java:618)
+    at org.eclipse.jetty.server.handler.HandlerWrapper.handle (HandlerWrapper.java:127)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:235)
+    at org.eclipse.jetty.server.session.SessionHandler.doHandle (SessionHandler.java:1624)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:233)
+    at org.eclipse.jetty.server.handler.ContextHandler.doHandle (ContextHandler.java:1440)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:188)
+    at org.eclipse.jetty.servlet.ServletHandler.doScope (ServletHandler.java:505)
+    at org.eclipse.jetty.server.session.SessionHandler.doScope (SessionHandler.java:1594)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:186)
+    at org.eclipse.jetty.server.handler.ContextHandler.doScope (ContextHandler.java:1355)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:141)
+    at org.eclipse.jetty.server.Dispatcher.forward (Dispatcher.java:229)
+    at org.eclipse.jetty.server.Dispatcher.forward (Dispatcher.java:81)
+    at com.jobportal.controller.LoginServlet.doGet (LoginServlet.java:71)
+    at javax.servlet.http.HttpServlet.service (HttpServlet.java:687)
+    at javax.servlet.http.HttpServlet.service (HttpServlet.java:790)
+    at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service (ServletHolder.java:1459)
+    at org.eclipse.jetty.servlet.ServletHolder.handle (ServletHolder.java:799)
+    at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter (ServletHandler.java:1656)
+    at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter (WebSocketUpgradeFilter.java:292)
+    at org.eclipse.jetty.servlet.FilterHolder.doFilter (FilterHolder.java:193)
+    at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter (ServletHandler.java:1626)
+    at com.jobportal.filter.AuthFilter.doFilter (AuthFilter.java:36)
+    at org.eclipse.jetty.servlet.FilterHolder.doFilter (FilterHolder.java:201)
+    at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter (ServletHandler.java:1626)
+    at org.eclipse.jetty.servlet.ServletHandler.doHandle (ServletHandler.java:552)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:143)
+    at org.eclipse.jetty.security.SecurityHandler.handle (SecurityHandler.java:600)
+    at org.eclipse.jetty.server.handler.HandlerWrapper.handle (HandlerWrapper.java:127)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:235)
+    at org.eclipse.jetty.server.session.SessionHandler.doHandle (SessionHandler.java:1624)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle (ScopedHandler.java:233)
+    at org.eclipse.jetty.server.handler.ContextHandler.doHandle (ContextHandler.java:1440)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:188)
+    at org.eclipse.jetty.servlet.ServletHandler.doScope (ServletHandler.java:505)
+    at org.eclipse.jetty.server.session.SessionHandler.doScope (SessionHandler.java:1594)
+    at org.eclipse.jetty.server.handler.ScopedHandler.nextScope (ScopedHandler.java:186)
+    at org.eclipse.jetty.server.handler.ContextHandler.doScope (ContextHandler.java:1355)
+    at org.eclipse.jetty.server.handler.ScopedHandler.handle (ScopedHandler.java:141)
+    at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle (ContextHandlerCollection.java:191)
+    at org.eclipse.jetty.server.handler.HandlerCollection.handle (HandlerCollection.java:146)
+    at org.eclipse.jetty.server.handler.HandlerWrapper.handle (HandlerWrapper.java:127)
+    at org.eclipse.jetty.server.Server.handle (Server.java:516)
+    at org.eclipse.jetty.server.HttpChannel.lambda$handle$1 (HttpChannel.java:487)
+    at org.eclipse.jetty.server.HttpChannel.dispatch (HttpChannel.java:732)
+    at org.eclipse.jetty.server.HttpChannel.handle (HttpChannel.java:479)
+    at org.eclipse.jetty.server.HttpConnection.onFillable (HttpConnection.java:277)
+    at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded (AbstractConnection.java:311)
+    at org.eclipse.jetty.io.FillInterest.fillable (FillInterest.java:105)
+    at org.eclipse.jetty.io.ChannelEndPoint$1.run (ChannelEndPoint.java:104)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask (EatWhatYouKill.java:338)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce (EatWhatYouKill.java:315)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce (EatWhatYouKill.java:173)
+    at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce (EatWhatYouKill.java:137)
+    at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob (QueuedThreadPool.java:883)
+    at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run (QueuedThreadPool.java:1034)
+    at java.lang.Thread.run (Thread.java:1447)
+[INFO] Stopped ServerConnector@21f50d2c{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[INFO] node0 Stopped scavenging
+[INFO] Stopped o.e.j.m.p.JettyWebAppContext@37d3e140{/job-portal,null,STOPPED}{/Users/ayushmishra/IdeaProjects/Job Portal/target/job-portal-1.0-SNAPSHOT.war}
+[INFO] Jetty server exiting.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  57.174 s
+[INFO] Finished at: 2026-10-07T16:54:59+05:30
+[INFO] ------------------------------------------------------------------------
